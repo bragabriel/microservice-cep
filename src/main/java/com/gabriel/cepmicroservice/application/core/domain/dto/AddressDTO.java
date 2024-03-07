@@ -7,7 +7,7 @@ import lombok.*;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class CepDto {
+public class AddressDTO {
 
     private String cep;
     private String logradouro;

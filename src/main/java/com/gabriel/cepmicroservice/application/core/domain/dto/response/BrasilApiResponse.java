@@ -1,6 +1,6 @@
 package com.gabriel.cepmicroservice.application.core.domain.dto.response;
 
-import com.gabriel.cepmicroservice.application.core.domain.dto.CepDto;
+import com.gabriel.cepmicroservice.application.core.domain.dto.AddressDTO;
 import lombok.*;
 
 @Getter
@@ -16,8 +16,8 @@ public class BrasilApiResponse {
     private String city;
     private String state;
 
-    public CepDto to(){
-        return CepDto.builder()
+    public AddressDTO to(){
+        return AddressDTO.builder()
                 .cep(this.cep)
                 .logradouro(this.street)
                 .bairro(this.neighborhood)
