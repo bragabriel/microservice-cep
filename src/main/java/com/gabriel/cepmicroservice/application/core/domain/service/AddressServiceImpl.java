@@ -28,14 +28,9 @@ public class AddressServiceImpl implements AddressPort {
         return viaCepApi.findAddress(cep).to();
     }
 
-    @CircuitBreaker(name = "fallbackAddress", fallbackMethod = "fallbackFallbackFindAddress")
     public AddressDTO fallBackFindAddress(String cep, Exception e) {
         log.error("Open State: {}", e.getMessage());
-        return brasilApi.findAddress(cep).to();
-    }
-
-    public AddressDTO fallbackFallbackFindAddress(String cep, Exception e) {
-        log.info("Fallback do fallback");
-        return new AddressDTO("13632482", "Praça dos Ipês", "Pirassununga", "São Paulo", "Cidade Jardim");
+        //return brasilApi.findAddress(cep).to();
+        return new AddressDTO("22061-030", "Avenida Henrique Dodsworth", "Rio de Janeiro", "Rio de Janeiro", "Copacabana");
     }
 }

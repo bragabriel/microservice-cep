@@ -11,7 +11,7 @@ public class AddressDTO {
 
     private String cep;
     private String logradouro;
+    private String bairro;
     private String cidade;
     private String estado;
-    private String bairro;
 }
