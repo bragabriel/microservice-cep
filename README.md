@@ -1,6 +1,6 @@
 # Microserviço - CEP 
 
-Este Microserviço faz parte de um [projeto de estudos](https://github.com/bragabriel/microservice-cep) para realizar a utilização de conceitos e ferramentas de nível intermediário-avançado.
+Este Microserviço faz parte de um [projeto de estudos pessoal](https://github.com/bragabriel/microservice-cep) para realizar a utilização de conceitos e ferramentas de nível intermediário-avançado.
 
 
 ## Sobre:
@@ -13,4 +13,7 @@ No desenvolvimento deste projeto, foram utilizadas as seguintes tecnologias:
 * Java 21;
 * Spring 3.2;
 * Open Feign;
-* Resilience4j.
+* Resilience4j;
+* Spring-Actuator;
+* Prometheus;
+* Grafana.
