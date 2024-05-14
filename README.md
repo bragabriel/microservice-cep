@@ -9,7 +9,6 @@ Este microserviço foi desenvolvido para retornar um endereço completo a partir
 - **Arquitetura Hexagonal**: Implementação da Arquitetura Hexagonal, que promove a separação de responsabilidades e facilita a escalabilidade e testabilidade do serviço.
 - **Práticas de Resiliência**: Utilização do **Resilience4j** para implementar um **Circuit Breaker**, garantindo que o serviço seja resiliente a falhas em serviços externos e evitando sobrecarga em caso de falhas repetidas.
 - **Fallback**: Implementação de mecanismos de fallback para fornecer respostas alternativas em caso de falha e retry para tentar novamente operações que falharem, aumentando a robustez do sistema.
-- **Bulkhead**: Isolamento de recursos para prevenir falhas em cascata, garantindo que uma falha em uma parte do sistema não afete todo o serviço.
 
 ## Tecnologias Utilizadas
 No desenvolvimento deste projeto, foram utilizadas as seguintes tecnologias:
@@ -64,7 +63,6 @@ Circuito Aberto
 </div>
 
 - **Fallback**: Proporciona respostas alternativas em caso de falha de serviços dependentes.
-- **Bulkhead**: Isolamento de recursos para evitar falhas em cascata.
 - **Retry**: Tentativas automáticas de reexecutar operações falhas, com um intervalo configurável entre as tentativas.
 
 Estas práticas garantem que o microserviço seja capaz de lidar com falhas de forma robusta, mantendo a disponibilidade e a integridade do sistema.
