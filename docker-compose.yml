@@ -1,11 +1,12 @@
 version: '3.3'
 
 networks:
-  pmt-network:
+  observability-network:
     driver: bridge
 
 volumes:
   prometheus_data:
+  grafana_data:
 
 services:
   prometheus:
@@ -14,6 +15,12 @@ services:
       - ./config/prometheus.yml:/etc/prometheus/prometheus.yml
       - prometheus_data:/prometheus
     networks:
-      - pmt-network
+      - observability-network
     ports:
       - 9090:9090
+  grafana:
+    image: grafana/grafana:latest
+    ports:
+      - 3000:3000
+    networks:
+      - observability-network
