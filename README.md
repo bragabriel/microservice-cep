@@ -36,7 +36,7 @@ A observabilidade é crucial para monitorar a saúde e o desempenho do microserv
 
 <div align="center">
 
-<img src="https://github.com/bragabriel/microservice-cep/blob/main/doc/imgs/grafana.png" width="190px">
+<img src="https://github.com/bragabriel/microservice-cep/blob/main/doc/imgs/grafana.png" width="700px">
 
 </div>
 
@@ -50,15 +50,16 @@ Para aumentar a resiliência do microserviço, foram implementadas as seguintes 
     
 Circuito Fechado
 
-<img src="https://github.com/bragabriel/microservice-cep/blob/main/doc/imgs/closedCircuit.png" width="190px">
+<img src="https://github.com/bragabriel/microservice-cep/blob/main/doc/imgs/closedCircuit.png" width="650px">
 
 </div>
 
+<br>
 <div align="center">
 
 Circuito Aberto
 
-<img src="https://github.com/bragabriel/microservice-cep/blob/main/doc/imgs/openCircuit.png" width="190px">
+<img src="https://github.com/bragabriel/microservice-cep/blob/main/doc/imgs/openCircuit.png" width="650px">
 
 </div>
 
