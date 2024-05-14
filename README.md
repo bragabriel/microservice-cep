@@ -1,6 +1,6 @@
 # Microserviço - CEP
 
-Este microserviço faz parte de um [projeto de estudos pessoal](https://github.com/bragabriel/microservice-cep) para aplicar conceitos e ferramentas de nível intermediário-avançado no desenvolvimento de APIs e microserviços.
+Este microserviço faz parte de um [projeto pessoal de estudos](https://github.com/bragabriel/project-sendgift) para aplicar conceitos e ferramentas de nível intermediário-avançado no desenvolvimento de APIs e microserviços.
 
 ## Sobre
 Este microserviço foi desenvolvido para retornar um endereço completo a partir de um **CEP**, utilizando tecnologias modernas e práticas avançadas de observabilidade e resiliência. Abaixo estão os principais destaques:
