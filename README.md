@@ -86,12 +86,12 @@ Para executar o microserviço, siga os passos abaixo:
    
 ## Acessos:
 
-- Aplicação: <u>localhost:8081</u>
-- CEP-Api:
+- **Aplicação:** <u>localhost:8081</u>
+- **CEP-Api:**
   - (Consulta bem-sucedida): <u>localhost:8081/api/address/**{CEP}**</u>
   - (Forçando a falha para testes): <u>localhost:8081/api/address/**0**</u>
-- Spring Actuator: <u>localhost:8081/actuator</u>
-- Prometheus: <u>localhost:9090</u>
-- Grafana: <u>localhost:3000</u>
+- **Spring Actuator:** <u>localhost:8081/actuator</u>
+- **Prometheus:** <u>localhost:9090</u>
+- **Grafana:** <u>localhost:3000</u>
 
-Para visualizar as métricas coletadas, você pode configurar o Prometheus e Grafana conforme a documentação oficial dessas ferramentas, e escolher o dashboard de sua preferência!
+Para visualizar as métricas coletadas, você pode configurar o Prometheus e Grafana conforme a documentação oficial dessas ferramentas, utilizando o dashboard de sua preferência 😃
