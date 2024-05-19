@@ -43,6 +43,7 @@ A observabilidade é crucial para monitorar a saúde e o desempenho do microserv
 ### Circuit Breaker e Práticas de Resiliência
 Para aumentar a resiliência do microserviço, foram implementadas as seguintes práticas:
 
+- **Fallback**: Proporciona respostas alternativas em caso de falha de serviços dependentes.
 - **Circuit Breaker com Resilience4j**: Protege o sistema contra falhas em serviços dependentes, impedindo chamadas repetidas a serviços que estão com falhas.
 
 <div align="center">
@@ -62,10 +63,7 @@ Circuito Aberto
 
 </div>
 
-- **Fallback**: Proporciona respostas alternativas em caso de falha de serviços dependentes.
-- **Retry**: Tentativas automáticas de reexecutar operações falhas, com um intervalo configurável entre as tentativas.
-
-Estas práticas garantem que o microserviço seja capaz de lidar com falhas de forma robusta, mantendo a disponibilidade e a integridade do sistema.
+Estas práticas de resiliência de API's e Microserviços garantem que o microserviço seja capaz de lidar com falhas de forma robusta, mantendo a disponibilidade e a integridade do sistema.
 
 ## Como Executar
 Para executar o microserviço, siga os passos abaixo:
